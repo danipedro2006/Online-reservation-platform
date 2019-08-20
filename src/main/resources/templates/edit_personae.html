@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Edit form</title>
+    <link rel="stylesheet" href="/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="main_container" align="center">
+    <h1>Edit data</h1>
+    <br />
+    <form action="#" th:action="@{/save}" th:object="${personae}"
+          method="post">
+        <table border="0" cellpadding="10">
+            <tr>
+                <td>Serial number:</td>
+                <td>
+                   <input type="text" th:field="*{id}" readonly="readonly" />
+                </td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" th:field="*{nume}" />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" th:field="*{prenume}" /></td>
+            </tr>
+            <tr>
+                <td>E-mai:</td>
+                <td><input type="text" th:field="*{email}" /></td>
+            </tr>
+            <tr>
+                <td>Bood group:</td>
+                <td><input type="text" th:field="*{bloodgroup}" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Save</button> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

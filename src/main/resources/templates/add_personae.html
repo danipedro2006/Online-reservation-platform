@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <style>
+    table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    border:1px solid #ddd;
+    }
+    </style>
+    <meta charset="utf-8">
+    <meta name="description" content="We build great software">
+    <meta name="author" content="Daniel Pirvu">
+    <title>Register</title>
+    <link rel="stylesheet" href="/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Donation form</title>
+</head>
+<body>
+<div class="main_container">
+    <div class="topnav">
+        <a class="active" href="index">Home</a>
+        <a href="add_personae">Register</a>
+    </div>
+<div align="center">
+    <h1>DONORS REGISTRATION LIST</h1>
+    <a href="new">Give Blood Save Life</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>Serial number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>E-mail</th>
+            <th>Blood group</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="personae : ${listPeople}">
+            <td th:text="${personae.id}">Serial number</td>
+            <td th:text="${personae.nume}">First Nume</td>
+            <td th:text="${personae.prenume}">Last Name</td>
+            <td th:text="${personae.email}">E-mail</td>
+            <td th:text="${personae.bloodgroup}">Blood group</td>
+            <td>
+                <a th:href="@{'/edit/' + ${personae.id}}">Edit</a>
+                &nbsp;&nbsp;&nbsp;
+                <a th:href="@{'/delete/' + ${personae.id}}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</body>
+</html>
