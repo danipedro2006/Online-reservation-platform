@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="We build great software">
+    <meta name="author" content="Daniel Pirvu">
+    <title>Acasa</title>
+    <link rel="stylesheet" href="/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Blood Donation Form</title>
+</head>
+<body>
+<div class="main_container">
+    <div align="center">
+    <div class="topnav">
+        <a class="active" href="index">Home</a>
+        <a href="add_personae">Register</a>
+    </div>
+    <h1>Donors Registration Form</h1>
+    <br/>
+    <form action="#" th:action="@{/save}" th:object="${personae}"
+          method="post">
+        <table border="0" cellpadding="10">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" th:field="*{nume}" /></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" th:field="*{prenume}" /></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="text" th:field="*{email}" /></td>
+            </tr>
+            <tr>
+                <td>Blood group:</td>
+                <td><input type="text" th:field="*{bloodgroup}" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Save</button> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+</body>
+</html>
