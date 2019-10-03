@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-The application allows the willing donors to donate, and help hospitals to keep a record of the donor's data in case if they need to communicate with them. What the purpose of the project is? Motivation?
+The application allows the willing donors to donate, and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png) to be completed
