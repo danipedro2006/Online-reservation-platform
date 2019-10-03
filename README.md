@@ -49,5 +49,5 @@ Project is:no longer continue
 Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by @Danisoft Arad 2019https://danipedro2006.github.io/) - feel free to contact me!
+Created by @Danisoft Arad 2019 (https://danipedro2006.github.io/) - feel free to contact me!
 
