@@ -6,8 +6,6 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
 
@@ -15,24 +13,13 @@
 The application allows the willing donors to donate, and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png) to be completed
+[Click-me](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
 
 ## Technologies
 * Java - version 8.0
 * Spring Boot - version 2.2
 * Thymeleaf 
 * MySql 8
-
-## Setup
-to be completed.
-
-
-## Features
-List of features ready and TODOs for future development: to be completed
-
-
-To-do list:
-* Implement Spring security
 
 
 ## Status
