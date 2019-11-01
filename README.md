@@ -16,10 +16,12 @@ The application allows the willing donors to donate, and help hospitals to keep 
 [Click-me](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
 
 ## Technologies
-* Java - version 8.0
-* Spring Boot - version 2.2
+* Java - version 1.8
+* Spring Boot - version 2.1
 * Thymeleaf 
-* MySql 8
+* MySql
+* Hibernate
+* HTML/CSS
 
 
 ## Status
