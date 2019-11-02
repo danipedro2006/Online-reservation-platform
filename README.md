@@ -13,7 +13,7 @@
 The application allows the willing donors to donate, and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
 
 ## Screenshots
-[Click-me](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
+[Click-me!](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
 
 ## Technologies
 * Java - version 1.8
