@@ -1,4 +1,4 @@
-# Online blood donation reservation and management system
+# Online reservation system
 > Functional web application using latest web technologies: Java, Spring Boot and Hibernate to build up the persistence layer, Thymeleaf and Bootstrap to build front-end services. 
 
 
@@ -10,7 +10,8 @@
 * [Contact](#contact)
 
 ## General info
-The application allows the willing donors to donate, and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
+Online Donors Reservation 
+This application allows the willing donors to register and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
 
 ## Screenshots
 [Click-me!](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
@@ -21,6 +22,7 @@ The application allows the willing donors to donate, and help hospitals to keep 
 * Thymeleaf 
 * MySql
 * Hibernate
+* Maven
 * HTML/CSS
 
 
