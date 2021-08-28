@@ -13,8 +13,8 @@
 Online Donors Reservation 
 This application allows the willing donors to register and help hospitals to keep a record of the donor's data in case if they need to communicate with them.
 
-## Screenshots
-[Click-me!](https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif)
+## Screenshots - Online reservation system
+<img src=https://github.com/danipedro2006/Spring-Boot-CRUD-demo-project/blob/master/FRqeKMwI4D.gif width="680"  height="360">
 
 ## Technologies
 * Java - version 1.8
